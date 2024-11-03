@@ -85,6 +85,6 @@
                 Start Bootstrap
             </div>
         </nav>
-    </div>
+    
 </div>
-<div id="layoutSidenav_content"></div>
+<div id="layoutSidenav_content">
