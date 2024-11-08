@@ -7,7 +7,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Login - SB Admin</title>
-    <link href="<?= base_url('assets/css/styles.css')?>" rel="stylesheet" />
+        <link href="<?= base_url('assets/css/styles.css')?>" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="bg-primary">
@@ -22,12 +22,12 @@
                                     <div class="card-body">
                                     <?php echo $this->session->flashdata('message'); ?>
                                     <form action="<? base_url('login/dologin') ?>" method="POST">
-                                        <div class="form-floating mb-3">
-                                            <input type="form-control" id="inputEmail" name="email" type="email" placeholder="name@example.com" />
+                                    <div class="form-floating mb-3">
+                                            <input class="form-control" id="inputEmail" name="email" type="email" placeholder="name@example.com" />
                                             <label for="inputEmail">Email address</label>
                                         </div>
                                         <div class="form-floating mb-3">
-                                            <input type="form-control" id="inputPassword" name="password" type="password" placeholder="Password" />
+                                            <input class="form-control" id="inputPassword" name="password" type="password" placeholder="Password" />
                                             <label for="inputPassword">Password</label>
                                         </div>
                                         <div class="form-check mb-3">
